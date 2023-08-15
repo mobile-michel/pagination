@@ -1,0 +1,8 @@
+{%- if collections.blog %}
+{%- assign previousPost = collections.blog | getPreviousCollectionItem %}
+{%- assign nextPost = collections.blog | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+{%- if previousPost %}Previous post: <a href="{{ previousPost.url }}"><button class="outline">{{ previousPost.data.title }}</button></a>{% endif %}
+{% if nextPost %}Next post: <a href="{{ nextPost.url }}"><button class="outline">{{ nextPost.data.title }}</button></a>{% endif %}
+{%- endif %}
+{%- endif %}

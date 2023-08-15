@@ -4,3 +4,4 @@
 3. Pico.css CDN link
 4. 404.html & index.md pages
 5. Create the blog pages
+6. Create pagination & post navigation for the blog

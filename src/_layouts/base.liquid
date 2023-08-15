@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.authorName }}">
     <meta name="description" content="{{ site.description }}">
-    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml">
+    <link
+      rel="icon"
+      href="{{ site.favicon }}"
+      type="image/svg+xml">
     <title>{{ title }} - {{ site.name }}</title>
-    <link rel="stylesheet" href="{{ site.css }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@next/css/pico.min.css">
   </head>
   <body>
     {% include 'header' %}
     <main class="container">
       <h1>{{ title }}</h1>
       {{ content }}
+      {% include 'postNav' %}
     </main>
     {% include 'footer' %}
   </body>
