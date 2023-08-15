@@ -1,0 +1,10 @@
+{
+    "name": "Blog",
+    "description": "Eleventy blog with pagination",
+    "authorName": "Michel Maillard",
+    "authorUrl": "https://michelmaillard.ch/",
+    "github": "https://github.com/mobile-michel/pagination",
+    "favicon": "https://11ty.recipes/images/meta/favicon.svg",
+    "stylesheet": "https://cdn.jsdelivr.net/npm/@picocss/pico@next/css/pico.min.css",
+    "backgroundImage": "https://images.pexels.com/photos/14702039/pexels-photo-14702039.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&dpr=1"
+}

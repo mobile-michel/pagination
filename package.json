@@ -1,0 +1,17 @@
+{
+  "name": "pagination",
+  "version": "1.1",
+  "description": "Eleventy blog with pagination",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "keywords": ["Eleventy", "LiquidJS", "Pico CSS"],
+  "author": "Michel Maillard",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
